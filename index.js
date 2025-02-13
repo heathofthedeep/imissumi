@@ -34,7 +34,9 @@ function updateNextStream(online, videoHref, videoTitle) {
   }
 
   document.getElementById("countdown-descriptor").textContent = streamTimeAway;
-  document.getElementById("next-stream").innerHTML = `<b>${adjective} Stream:</b> <a href="${upcomingHref}">${upcomingTitle}</a>`;
+  if(upcomingTitle != ""){
+    document.getElementById("next-stream").innerHTML = `<b>${adjective} Stream:</b> <a href="${upcomingHref}">${upcomingTitle}</a>`;
+  }
 }
 
 const negativeImages = ["umitears.png", "umicry.png", "umirip.png"];
