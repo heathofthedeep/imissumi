@@ -21,7 +21,6 @@ function updateFeeling(online) {
     imagePath = `${imageName}`;
   }
   document.getElementById("feeling").src = imagePath;
-  document.getElementById("feeling").alt = `Nimi ${imageName.slice(0, -4)}`;
 }
 
 function updateNextStream(online, videoHref, videoTitle) {
@@ -44,7 +43,5 @@ const positiveImages = ["umihug.png", "umiheadpat.png", "umicozy.png"];
 const imageIndex = Math.floor(Math.random() * positiveImages.length);
 
 updateFeeling(online);
-if (!online) {
-  updateNextStream(online, videoHref, videoTitle);
-  setInterval(updateNextStream, 1000, online, videoHref, videoTitle);
-}
+
+updateNextStream(online, videoHref, videoTitle);
