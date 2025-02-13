@@ -1,0 +1,121 @@
+body{
+    background-color: #3AB8E2;
+    text-align: center;
+    font-family: "Anton", serif;
+    color: #1e293b;
+}
+  
+h1 {
+    font-family: "Shrikhand", cursive;
+    font-weight: 800;
+    font-size: 8rem;
+    fill: #f7aed2;
+    color:  #f7aed2;
+    text-anchor: start;
+    margin: auto;
+}
+
+a {
+    color: #dbf3fd;
+}
+
+
+.simply-countdown > .simply-section {
+    width: 65px;
+    height: 65px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbf3fd;
+    border: 4px solid #facae3;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.02);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(10px);
+  }
+  
+  .simply-countdown > .simply-section > div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    align-items: center;
+  }
+  
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+  
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  img{
+    border: 4px solid #facae3;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1em;
+  }
+
+  footer{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+
+    flex-direction: column;
+    line-height: 1;
+    align-items: center;
+  }
+
+  small {
+    padding: 2rem;
+    border: 4px solid #facae3;
+    background-color: #dbf3fd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+
+    border-radius: 1rem;
+  }
+
+  #youtube-link {
+    font-family: "Shrikhand", cursive;
+    color: #f7aed2;
+    font-size: 2rem;
+  }
+
+  small#affiliation{
+    border: 0px;
+    background: none;
+  }
+
+  small#inpiration{
+    border: 0px;
+    font-size: .75rem;
+    background: none;
+  }
+
+  #countdown-descriptor{
+    margin: 0.5rem 2rem;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+    font-weight: 800;
+    font-size: 6rem;
+    color: #1e293b;
+  }
+
+  #next-stream{
+    margin: 0rem 2rem;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+    font-weight: 800;
+    font-size: 2rem;
+  }
