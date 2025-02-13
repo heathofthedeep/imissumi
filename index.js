@@ -1,15 +1,16 @@
 import { online, upcomingHref,upcomingTitle, videoDate, videoHref, videoTitle } from "./youtube_data.js";
 import simplyCountdown from "./simplyCountdown.js";
 
-simplyCountdown("#time-since-last-stream", {
-  year: videoDate.getFullYear(),
-  month: videoDate.getMonth()+1,
-  day: videoDate.getDate(),
-  hours: videoDate.getHours(),
-  minutes: videoDate.getMinutes(),
-  countUp:true
-});
-
+if(!online){
+  simplyCountdown("#time-since-last-stream", {
+    year: videoDate.getFullYear(),
+    month: videoDate.getMonth()+1,
+    day: videoDate.getDate(),
+    hours: videoDate.getHours(),
+    minutes: videoDate.getMinutes(),
+    countUp:true
+  });
+}
 
 function updateFeeling(online) {
   let [imageName, imagePath] = ["", ""];
