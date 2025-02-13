@@ -1,8 +1,9 @@
 export const online = false;
-
-export const videoDate = new Date("2025-02-10T02:25:37Z");
-export const videoHref = "https://www.youtube.com/watch?v=cc_AUG01YCA";
-export const videoTitle = "sam &amp; max hit the road";
-
-export const upcomingHref = "https://www.youtube.com/watch?v=JlZpS3jsQh0";
-export const upcomingTitle = "NEW OUTFIT DEBUT";
+    
+    export const videoDate = new Date("2025-02-13T01:40:14Z");
+    export const videoHref = "https://www.youtube.com/watch?v=xjkGo-6fgLs";
+    export const videoTitle = "【LUCID KARAOKE RELAY】like you have a choice to love me or not";
+    
+    export const upcomingHref = "https://www.youtube.com/watch?v=gMSd6jnBIlQ";
+    export const upcomingTitle = "i don&#39;t like valentine&#39;s but i&#39;d let you...";
+    
