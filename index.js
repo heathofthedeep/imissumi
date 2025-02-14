@@ -30,7 +30,7 @@ function updateNextStream(online, videoHref, videoTitle) {
 
   if (!online) {
     streamTimeAway = "without  Umi";
-    adjective = "Next";
+    adjective = "Upcoming";
   }
 
   document.getElementById("countdown-descriptor").textContent = streamTimeAway;
