@@ -4,6 +4,6 @@ export const online = false;
     export const videoHref = "https://www.youtube.com/watch?v=gMSd6jnBIlQ";
     export const videoTitle = "i don&#39;t like valentine&#39;s...";
     
-    export const upcomingHref = "https://www.youtube.com/watch?v=-y6RoBlm6Gs";
-    export const upcomingTitle = "i&#39;m your yandere internet girlfriend【MILLENIUM WHISPER】";
+    export const upcomingHref = "https://www.youtube.com/watch?v=WCUuy2YrP2M";
+    export const upcomingTitle = "wet wednesday";
     
