@@ -38,7 +38,7 @@ function updateNextStream(online, videoHref, videoTitle, upcomingVideos) {
   }
 
   upcomingVideos.forEach((video) => {
-    videos.push(`<a class="upcoming" href="${video.href}"><span>${video.title}</span><img src="${video.thumbnail}" /></a>`)
+    videos.push(`<a class="upcoming" href="${video.url}"><span>${video.title}</span><img src="${video.thumbnail}" /></a>`)
   });
 
   document.getElementById("upcoming-stream").innerHTML = videos.join(" ");
