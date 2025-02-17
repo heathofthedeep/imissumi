@@ -57,7 +57,7 @@ a {
     letter-spacing: 0.1em;
   }
 
-  img{
+  img#feeling{
     border: 4px solid #facae3;
     border-radius: 50%;
     overflow: hidden;
@@ -111,9 +111,33 @@ a {
     color: #1e293b;
   }
 
-  #next-stream{
+  #live-stream {
     margin: 0rem 2rem;
     padding: 0rem 1.5rem 1.5rem 1.5rem;
     font-weight: 800;
     font-size: 2rem;
+  }
+
+  #upcoming-stream {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  a.upcoming span {
+    position: absolute;
+    width: 320px;
+    text-align: left;
+    background: #facae3;
+    padding: 3px;
+    color: #1e293b;
+  }
+  a.upcoming{
+    position: relative;
+    border: 4px solid #facae3;
+    overflow: hidden;
+    margin: 1em;
+    width: 320px;
+    height: 180px;
   }

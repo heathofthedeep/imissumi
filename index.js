@@ -1,4 +1,4 @@
-import { online, upcomingHref,upcomingTitle, videoDate, videoHref, videoTitle } from "./youtube_data.js";
+import { online, liveHref, liveTitle, upcomingVideos, videoDate, videoHref, videoTitle } from "./youtube_data.js";
 import simplyCountdown from "./simplyCountdown.js";
 
 if(!online){
@@ -24,19 +24,24 @@ function updateFeeling(online) {
   document.getElementById("feeling").src = imagePath;
 }
 
-function updateNextStream(online, videoHref, videoTitle) {
+function updateNextStream(online, videoHref, videoTitle, upcomingVideos) {
   let streamTimeAway = "Umi is live!";
-  let adjective = "Live";
+  let videos = [];
 
   if (!online) {
     streamTimeAway = "without  Umi";
-    adjective = "Upcoming";
   }
 
   document.getElementById("countdown-descriptor").textContent = streamTimeAway;
-  if(upcomingTitle != ""){
-    document.getElementById("next-stream").innerHTML = `<b>${adjective} Stream:</b> <a href="${upcomingHref}">${upcomingTitle}</a>`;
+  if(liveTitle != ""){
+    document.getElementById("live-stream").innerHTML = `<b>Live Stream:</b> <a href="${liveHref}">${liveTitle}</a>`;
   }
+
+  upcomingVideos.forEach((video) => {
+    videos.push(`<a class="upcoming" href="${video.href}"><span>${video.title}</span><img src="${video.thumbnail}" /></a>`)
+  });
+
+  document.getElementById("upcoming-stream").innerHTML = videos.join(" ");
 }
 
 const negativeImages = ["umitears.png", "umicry.png", "umirip.png"];
@@ -45,4 +50,4 @@ const imageIndex = Math.floor(Math.random() * positiveImages.length);
 
 updateFeeling(online);
 
-updateNextStream(online, videoHref, videoTitle);
+updateNextStream(online, videoHref, videoTitle, upcomingVideos);
