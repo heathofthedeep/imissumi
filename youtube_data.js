@@ -1,8 +1,8 @@
 export const online = false;
     
-export const videoDate = new Date("2025-02-23T20:06:07Z");
-export const videoHref = "https://www.youtube.com/watch?v=-y6RoBlm6Gs";
-export const videoTitle = "pls miss your internet girlfriend";
+export const videoDate = new Date("2025-02-24T20:00:35Z");
+export const videoHref = "https://www.youtube.com/watch?v=yfchDUq5Mmk";
+export const videoTitle = "It’s not fair #shorts";
 
 export const upcomingVideos = [];
 
