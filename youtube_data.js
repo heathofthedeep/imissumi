@@ -1,8 +1,8 @@
 export const online = false;
     
-export const videoDate = new Date("2025-03-16T21:52:15Z");
-export const videoHref = "https://www.youtube.com/watch?v=_lxcP4_vnII";
-export const videoTitle = "let&#39;s have lunch and chat together!!!!";
+export const videoDate = new Date("2025-03-17T19:00:48Z");
+export const videoHref = "https://www.youtube.com/watch?v=zqzIBdXkIvo";
+export const videoTitle = "Y2K PRINCESS HAS ARRIVED!";
 
 export const upcomingVideos = [{"url":"https://www.youtube.com/watch?v=x4i50XvL1Gw","title":"cuddle with me?","thumbnail":"https://i.ytimg.com/vi/x4i50XvL1Gw/mqdefault_live.jpg"},{"url":"https://www.youtube.com/watch?v=w0oy_fsQNWE","title":"put sunblock on me, we&#39;re going sailing (monkey island)","thumbnail":"https://i.ytimg.com/vi/w0oy_fsQNWE/mqdefault_live.jpg"},{"url":"https://www.youtube.com/watch?v=ZSo1_w49-TQ","title":"tummy wars","thumbnail":"https://i.ytimg.com/vi/ZSo1_w49-TQ/mqdefault_live.jpg"}];
 
