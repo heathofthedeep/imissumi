@@ -1,6 +1,6 @@
 export const online = false;
     
-export const videoDate = new Date("2025-05-01T00:05:40Z");
+export const videoDate = new Date("2025-05-03T10:50:09Z");
 export const videoHref = "https://www.youtube.com/watch?v=Qm404PqBIco";
 export const videoTitle = "i&#39;m back + small announcement!";
 
