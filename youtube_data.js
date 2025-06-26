@@ -1,6 +1,6 @@
 export const online = false;
     
-export const videoDate = new Date("2025-06-25T00:29:41Z");
+export const videoDate = new Date("2025-06-26T09:29:34Z");
 export const videoHref = "https://www.youtube.com/watch?v=ys2N9EVDpSA";
 export const videoTitle = "my endless blue (musical experience)";
 
