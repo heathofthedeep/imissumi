@@ -1,8 +1,8 @@
 export const online = false;
     
-export const videoDate = new Date("2025-08-01T19:00:52Z");
-export const videoHref = "https://www.youtube.com/watch?v=mG1e3sbq_2o";
-export const videoTitle = "I’ll kiss myself #shorts";
+export const videoDate = new Date("2025-08-06T19:00:54Z");
+export const videoHref = "https://www.youtube.com/watch?v=rn-okbcRqBs";
+export const videoTitle = "you oughta know #shorts";
 
 export const upcomingVideos = [];
 
