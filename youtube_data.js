@@ -1,10 +1,10 @@
-export const online = true;
+export const online = false;
     
-export const videoDate = new Date("2025-11-18T02:17:17Z");
-export const videoHref = "https://www.youtube.com/watch?v=1ofDav_Wb6o";
-export const videoTitle = "she&#39;s a feesh";
+export const videoDate = new Date("2025-11-23T20:00:06Z");
+export const videoHref = "https://www.youtube.com/watch?v=-2JWOZtqVQ8";
+export const videoTitle = "I SANG AT HYPERJAPAN MANCHESTER 2025";
 
 export const upcomingVideos = [];
 
-export const liveHref = "https://www.youtube.com/watch?v=-2JWOZtqVQ8";
-export const liveTitle = "I SANG AT HYPERJAPAN MANCHESTER 2025";
+export const liveHref = "";
+export const liveTitle = "";
