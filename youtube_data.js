@@ -1,8 +1,8 @@
 export const online = false;
     
-export const videoDate = new Date("2025-06-26T09:29:34Z");
-export const videoHref = "https://www.youtube.com/watch?v=ys2N9EVDpSA";
-export const videoTitle = "my endless blue (musical experience)";
+export const videoDate = new Date("2025-11-23T20:00:06Z");
+export const videoHref = "https://www.youtube.com/watch?v=-2JWOZtqVQ8";
+export const videoTitle = "I SANG AT HYPERJAPAN MANCHESTER 2025";
 
 export const upcomingVideos = [];
 
