@@ -1,10 +1,10 @@
-export const online = true;
+export const online = false;
     
-export const videoDate = new Date("2026-05-09T02:35:11Z");
-export const videoHref = "https://www.youtube.com/watch?v=nq8QpAhKcdw";
-export const videoTitle = "I LOVE WOMEN!!!!!";
+export const videoDate = new Date("2026-06-08T23:40:40Z");
+export const videoHref = "https://www.youtube.com/watch?v=_7Gb_728Cbs";
+export const videoTitle = "SPEND OCEAN&#39;S DAY WITH ME 🌊";
 
 export const upcomingVideos = [];
 
-export const liveHref = "https://www.youtube.com/watch?v=_7Gb_728Cbs";
-export const liveTitle = "SPEND OCEAN&#39;S DAY WITH ME 🌊";
+export const liveHref = "";
+export const liveTitle = "";
