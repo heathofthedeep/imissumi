@@ -1,10 +1,10 @@
-export const online = false;
+export const online = true;
     
-export const videoDate = new Date("2026-07-31T19:06:41Z");
-export const videoHref = "https://www.youtube.com/watch?v=6iDibKiRNQE";
-export const videoTitle = "lunch and karaoke for u !";
+export const videoDate = new Date("2026-08-12T20:14:08Z");
+export const videoHref = "https://www.youtube.com/watch?v=XUcyu3oRzXM";
+export const videoTitle = "UWUMI BIRTHDAY!!!!";
 
-export const upcomingVideos = [{"url":"https://www.youtube.com/watch?v=4cSXkduArmI","title":"yap yap yap yap yap w uwumi","thumbnail":"https://i.ytimg.com/vi/4cSXkduArmI/mqdefault_live.jpg"}];
+export const upcomingVideos = [];
 
-export const liveHref = "";
-export const liveTitle = "";
+export const liveHref = "https://www.youtube.com/watch?v=4cSXkduArmI";
+export const liveTitle = "yap yap yap yap yap w uwumi";
