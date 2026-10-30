@@ -1,10 +1,10 @@
-export const online = true;
+export const online = false;
     
-export const videoDate = new Date("2026-09-23T21:31:41Z");
-export const videoHref = "https://www.youtube.com/watch?v=EXA_vdGBq7A";
-export const videoTitle = "uwumi wednesday";
+export const videoDate = new Date("2026-10-30T16:03:46Z");
+export const videoHref = "https://www.youtube.com/watch?v=iv0Re3_tLwI";
+export const videoTitle = "co-working!!!!!!";
 
 export const upcomingVideos = [];
 
-export const liveHref = "https://www.youtube.com/watch?v=iv0Re3_tLwI";
-export const liveTitle = "spooky co-working";
+export const liveHref = "";
+export const liveTitle = "";
