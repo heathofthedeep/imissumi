@@ -1,8 +1,8 @@
 export const online = false;
     
-export const videoDate = new Date("2026-01-30T00:38:16Z");
-export const videoHref = "https://www.youtube.com/watch?v=OaYWMtMe7UE";
-export const videoTitle = "umi kyoku karaoke";
+export const videoDate = new Date("2026-10-30T22:24:29Z");
+export const videoHref = "https://www.youtube.com/watch?v=iv0Re3_tLwI";
+export const videoTitle = "co-working!!!!!!";
 
 export const upcomingVideos = [];
 
